@@ -1,0 +1,7 @@
+install! "cocoapods", :integrate_targets => false
+
+platform :ios, '8.0'
+
+target "Play!" do
+    pod 'SDWebImage', '~> 3.7'
+end

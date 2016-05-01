@@ -38,4 +38,4 @@ CODEGEN_PATH = ../../CodeGen/
 BOOST_FRAMEWORK_PATH = ../../Dependencies/BoostMac/ios/framework/
 
 FRAMEWORK_SEARCH_PATHS = $(BOOST_FRAMEWORK_PATH) .
-HEADER_SEARCH_PATHS = $(BOOST_FRAMEWORK_PATH)/boost.framework/Headers $(CODEGEN_PATH)/include $(FRAMEWORK_PATH)/include ../include
+HEADER_SEARCH_PATHS = Pods/Headers/Public $(BOOST_FRAMEWORK_PATH)/boost.framework/Headers $(CODEGEN_PATH)/include $(FRAMEWORK_PATH)/include ../include
